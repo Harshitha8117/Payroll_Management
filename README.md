@@ -1,5 +1,6 @@
-                                                                                               **** PAYROLL MANAGEMENT**
-**
+PAYROLL_MANAGEMENT
+
+
 A powerful web application designed to streamline and automate employee payroll processing, ensuring accuracy, compliance, and efficiency.
 
 ⭐ Features
