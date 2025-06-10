@@ -1,4 +1,6 @@
-PAYROLL_MANAGEMENT
+PAYROLL MANAGEMENT
+
+![image](https://github.com/user-attachments/assets/24c97b74-4338-4cba-a750-cb75d3761e46)
 
 
 A powerful web application designed to streamline and automate employee payroll processing, ensuring accuracy, compliance, and efficiency.
