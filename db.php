@@ -1,18 +1,13 @@
 <?php
-// db.php
-$host = 'localhost';
-$db   = 'payroll_db';
-$user = 'root';
-$pass = '';
-$charset = 'utf8mb4';
+$host = 'sql313.infinityfree.com';
+$db   = 'your_db_name'; // Replace with actual DB name
+$user = 'your_db_user'; // Replace with actual username
+$pass = 'your_db_password'; // Replace with actual password
 
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$options = [
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-];
 try {
-    $pdo = new PDO($dsn, $user, $pass, $options);
+    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("DB Connection failed: " . $e->getMessage());
+    die("Connection failed: " . $e->getMessage());
 }
+?>
