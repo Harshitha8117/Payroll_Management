@@ -1,11 +1,5 @@
-CREATE DATABASE IF NOT EXISTS payroll_db;
-USE payroll_db;
-
-CREATE TABLE IF NOT EXISTS employees (
+CREATE TABLE employees (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    position VARCHAR(100) NOT NULL,
-    basic_salary DECIMAL(10,2) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    name VARCHAR(255) NOT NULL,
+    salary FLOAT NOT NULL
 );
