@@ -11,7 +11,7 @@ A powerful web application designed to streamline and automate employee payroll 
 * Automated payroll calculation including taxes, bonuses, and deductions
 * Generate detailed payslips and payroll reports.
 * Role-based access control for HR and finance teams.
-* Export payroll data in CSV/PDF formats
+* Export payroll data in CSV/PDF formats.
 * Dashboard with real-time payroll analytics and notifications
 
 ⭐ Technologies Used
